@@ -26,7 +26,14 @@ a{
     text-decoration: none;
 }
 a:link{
-    color:#FF8374
+    color:#FF8374;
+}
+a:visited{
+    color:#FF8374;
+}
+
+a:hover{
+    color:#E67088
 }
 img{
     margin:auto;
