@@ -1,0 +1,34 @@
+body{
+    background-color:#FFD6D1;
+    color: #8F7070;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.title, .page-header{
+    text-align: center;
+}
+
+.nav, a, .recipes{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link{
+    display:block;
+}
+ul.recipes, a{
+    line-height: 2;
+    margin-left: 1em;
+    
+}
+
+a{
+    text-decoration: none;
+}
+a:link{
+    color:#FF8374
+}
+img{
+    margin:auto;
+    display:block;
+}
