@@ -1,16 +1,20 @@
 body{
     background-color:#252525;
     color: #ffbf00;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Brush Script MT','Copperplate','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .title, .page-header{
     text-align: center;
+    font-family: 'Copperplate';
 }
 
 .nav, a, .recipes{
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+.nav, a, .recipes, li, p{
+    font-family: 'Trebuchet MS';
 }
 
 .link{
@@ -19,7 +23,6 @@ body{
 ul.recipes, a{
     line-height: 2;
     margin-left: 1em;
-    
 }
 
 a{
