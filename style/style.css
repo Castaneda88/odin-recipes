@@ -1,6 +1,6 @@
 body{
-    background-color:#FFD6D1;
-    color: #8F7070;
+    background-color:#252525;
+    color: #ffbf00;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .title, .page-header{
@@ -26,14 +26,15 @@ a{
     text-decoration: none;
 }
 a:link{
-    color:#FF8374;
+    color:#dba400;
 }
 a:visited{
-    color:#FF8374;
+    color:##dba400;
 }
 
 a:hover{
-    color:#E67088
+    color:#FF7900;
+    
 }
 img{
     margin:auto;
