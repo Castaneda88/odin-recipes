@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-container {
+        display: none; /* Hide the image by default */
+    }
+    
+    .hover-link:hover + .image-container {
+        display: block; /* Show the image when the link is hovered */
+    }
+    
+    .hover-image {
+        position: absolute; /* Change this according to your layout needs */
+        top: 50px; /* Adjust as needed */
+        left: 0; /* Adjust as needed */
+    }
+    </style>
+</head>
+
+
+<body>
+    <a href="#" class="hover-link">Hover over me!</a>
+    <div class="image-container">
+        <img src="image.jpg" alt="Hovered Image" class="hover-image">
+    </div>
+</body>
+</html>

@@ -45,7 +45,7 @@ li{
     padding:18px;
     margin:100px auto 50px auto;
     list-style-type:none;
-    border: solid;
+    border: solid ;
     border-radius: 10px;
     text-align: center;
     background-color:#fbb03b;
@@ -74,7 +74,7 @@ a.link-1:hover + div.image-container-1{
 }
 .chocolate-milk{
     position:bottom;
-    border:solid #FF5543;
+    border:solid #fbb03b;
     border-radius: 15px;
     margin-top: 20px;
 }
@@ -84,7 +84,7 @@ a.link-2:hover + div.image-container-2{
 }
 .mac-and-cheese{
     position:bottom;
-    border:solid #FF5543;
+    border:solid #fbb03b;
     border-radius: 15px;
     margin-top: 20px;
 }
@@ -95,7 +95,7 @@ a.link-3:hover + div.image-container-3{
 
 .pbj{
     position:bottom;
-    border:solid #FF5543;
+    border:solid #fbb03b;
     border-radius: 15px;
     margin-top: 20px;
 }
