@@ -1,0 +1,101 @@
+body{
+    max-width:1000px;
+    max-height:1000px;
+    margin:-30px auto auto auto;
+    color:#fbb03b;
+    background-color: #FF5543;
+    border:double 8px;
+    border-radius: 30px;
+    background-image:url(../files/background-image.png);
+    background-repeat: no-repeat;
+    background-size: 900px auto;
+    background-position: center top 135px;
+}
+.header-container{
+    display:flex;
+    justify-content:space-around;
+    margin-top:60px;
+    font-family:
+}
+
+.title{
+    display:inline;
+    border: solid;
+    padding:20px;
+    border-radius: 18px;
+    background: #FF5543;
+    color: #fbb03b;
+}
+.sub-header{
+    display:inline;
+    padding:auto;
+    padding: 25px;
+    border: solid 1px;
+    color:#fbb03b;
+    background-color: #FF5543;
+    border-radius:15px
+}
+
+.recipes{
+    margin:300px auto 30px -50px;
+    display:flex;
+    justify-content: space-between;
+}
+li{
+    padding:18px;
+    margin:100px auto 50px auto;
+    list-style-type:none;
+    border: solid;
+    border-radius: 10px;
+    text-align: center;
+    background-color:#fbb03b;
+    font-family: 'Brush Script MT';
+    font-size: 26px;
+    font-weight: 800;
+}
+.image-container-1, .image-container-2, .image-container-3{
+    display:none;
+}
+
+a:link{
+    color: #FF5543 ;
+    text-decoration: none;
+}
+a:visited{
+    color:#FF5543;
+}
+
+a:hover{
+    color:#D03011;
+}
+
+a.link-1:hover + div.image-container-1{
+    display:block;
+}
+.chocolate-milk{
+    position:bottom;
+    border:solid #FF5543;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+a.link-2:hover + div.image-container-2{
+    display:block;
+}
+.mac-and-cheese{
+    position:bottom;
+    border:solid #FF5543;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+a.link-3:hover + div.image-container-3{
+    display:block
+}
+
+.pbj{
+    position:bottom;
+    border:solid #FF5543;
+    border-radius: 15px;
+    margin-top: 20px;
+}
