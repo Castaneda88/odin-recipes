@@ -4,10 +4,10 @@ body{
 
 .page-layout{
     max-width:1000px;
-    max-height:1500px;
+    max-height:900px;
     min-width: 200px;
     min-height: 200px;
-    margin:-30px auto auto auto;
+    margin:-30px auto auto;
     color:#fbb03b;
     background-color: #FF5543;
     border:double 8px;
@@ -15,7 +15,7 @@ body{
     background-image:url(../files/background-image.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    background-position: center top 135px;
+    background-position: center top 50%;
 }
 
 .header-container{
@@ -26,7 +26,7 @@ body{
     margin-top:50px;
     font-family:;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .title,
@@ -35,8 +35,9 @@ body{
     color: #fbb03b;
     background-color: #FF5543;
     border: solid 1px;
-    flex-wrap: nowrap;
-    display: inline-block;
+    flex-wrap: wrap;
+    flex:1 1 auto;
+    margin: 0 10%;
 }
 
 .title{
@@ -49,15 +50,26 @@ body{
     padding: 25px;
     
 }
+.recipe-container{
+    display:flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin-right: 5%;
+}
 
 .recipes{
-    margin:300px auto 30px -50px;
+    margin:40% 1% 2%;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex:1 1 0;
+    height:410px;
+    align-content:baseline;
+
 }
 li{
     padding:18px;
-    margin:100px auto 50px auto;
+    margin:100px 2% 50px;
     list-style-type:none;
     border: solid ;
     border-radius: 10px;
@@ -66,6 +78,7 @@ li{
     font-family: 'Brush Script MT';
     font-size: 26px;
     font-weight: 800;
+    flex:auto;
 }
 .image-container-1, .image-container-2, .image-container-3{
     display:none;
