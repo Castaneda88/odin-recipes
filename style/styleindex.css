@@ -1,6 +1,12 @@
 body{
+    background-color: #FF5543;
+}
+
+.page-layout{
     max-width:1000px;
-    max-height:1000px;
+    max-height:1500px;
+    min-width: 200px;
+    min-height: 200px;
     margin:-30px auto auto auto;
     color:#fbb03b;
     background-color: #FF5543;
@@ -8,32 +14,40 @@ body{
     border-radius: 30px;
     background-image:url(../files/background-image.png);
     background-repeat: no-repeat;
-    background-size: 900px auto;
+    background-size: 100% auto;
     background-position: center top 135px;
 }
+
 .header-container{
     display:flex;
-    justify-content:space-around;
-    margin-top:60px;
-    font-family:
+    flex-direction: row;
+    flex:1 1 auto;
+    flex-wrap: nowrap;
+    margin-top:50px;
+    font-family:;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.title,
+.sub-header{
+    border-radius: 15px;
+    color: #fbb03b;
+    background-color: #FF5543;
+    border: solid 1px;
+    flex-wrap: nowrap;
+    display: inline-block;
 }
 
 .title{
-    display:inline;
-    border: solid;
     padding:20px;
-    border-radius: 18px;
-    background: #FF5543;
-    color: #fbb03b;
+    border-radius: 15px;
+    
 }
 .sub-header{
-    display:inline;
-    padding:auto;
+    padding: auto;
     padding: 25px;
-    border: solid 1px;
-    color:#fbb03b;
-    background-color: #FF5543;
-    border-radius:15px
+    
 }
 
 .recipes{
