@@ -3,82 +3,76 @@ body{
 }
 
 .page-layout{
-    max-width:1000px;
-    max-height:900px;
-    min-width: 200px;
-    min-height: 200px;
-    margin:-30px auto auto;
+    max-width:auto;
+    max-height:1600px;
+    margin:-10% auto auto;
     color:#fbb03b;
     background-color: #FF5543;
     border:double 8px;
     border-radius: 30px;
     background-image:url(../files/background-image.png);
     background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: center top 50%;
+    background-size: 60% auto;
+    background-position: center top 280px;
 }
 
 .header-container{
     display:flex;
     flex-direction: row;
-    flex:1 1 auto;
-    flex-wrap: nowrap;
-    margin-top:50px;
-    font-family:;
+    flex-wrap: wrap;
+    margin-top:90px;
+    font-family: monospace;
     text-align: center;
-    justify-content: space-around;
+    flex-shrink: 1;
+    justify-content: space-evenly;
 }
 
 .title,
 .sub-header{
+
     border-radius: 15px;
     color: #fbb03b;
     background-color: #FF5543;
     border: solid 1px;
-    flex-wrap: wrap;
-    flex:1 1 auto;
-    margin: 0 10%;
+    flex-grow:0 1 0;
+    align-self: center;
 }
 
 .title{
     padding:20px;
     border-radius: 15px;
+    font-size: 180%;
     
 }
 .sub-header{
-    padding: auto;
     padding: 25px;
+    font-size: large;
     
 }
 .recipe-container{
-    display:flex;
-    justify-content: flex-end;
     text-align: center;
-    margin-right: 5%;
+    flex:1 1 auto;
 }
 
 .recipes{
-    margin:40% 1% 2%;
     display:flex;
+    margin:50% auto 3%;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    flex:1 1 0;
-    height:410px;
-    align-content:baseline;
+    padding-left: 0;
 
 }
 li{
-    padding:18px;
-    margin:100px 2% 50px;
+    padding:1rem;
+    margin:1rem;
     list-style-type:none;
-    border: solid ;
+    border: solid;
     border-radius: 10px;
     text-align: center;
     background-color:#fbb03b;
     font-family: 'Brush Script MT';
-    font-size: 26px;
+    font-size: 170%;
     font-weight: 800;
-    flex:auto;
 }
 .image-container-1, .image-container-2, .image-container-3{
     display:none;
@@ -117,7 +111,7 @@ a.link-2:hover + div.image-container-2{
 }
 
 a.link-3:hover + div.image-container-3{
-    display:block
+    display:block;
 }
 
 .pbj{
