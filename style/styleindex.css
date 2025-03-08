@@ -20,7 +20,7 @@ body{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top:90px;
+    margin-top:10%;
     font-family: monospace;
     text-align: center;
     flex-shrink: 1;
