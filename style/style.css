@@ -1,45 +1,137 @@
-body{
-    background-color:#252525;
-    color: #ffbf00;
-    font-family:'Brush Script MT','Copperplate','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+*{
+    border-radius: 10px;
 }
-.title, .page-header{
-    text-align: center;
-    font-family: 'Copperplate';
+body{
+    background:rgb(225, 146, 56)
 }
 
-.nav, a, .recipes{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
 }
-.nav, a, .recipes, li, p{
-    font-family: 'Trebuchet MS';
+
+.page-header{
+    text-align: center;
+    font-family:  'Brush Script MT', cursive;
+    color: beige;
+    font-size: 60px;
+    filter: drop-shadow(0 1rem 1rem #9c5c34)
+}
+
+.nav{
+    display: flex;
+    margin:auto 0;
+    padding:0;
+    list-style-type: none;
+    justify-content: space-evenly;    
+    width:fit-content;
+    
 }
 
 .link{
-    display:block;
-}
-ul.recipes, a{
-    line-height: 2;
-    margin-left: 1em;
-}
-
-a{
     text-decoration: none;
-}
-a:link{
-    color:#dba400;
-}
-a:visited{
-    color:#dba400;
+    flex:auto;
 }
 
-a:hover{
-    color:#FF7900;
+a:link{
+    color:beige;
+    font-size:25px;
+    font-weight:500;
+}
+
+.image-container{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: -20px;
+}
+
+.image-container img{
+    flex-basis: 250px;
+    flex-shrink: 1;
+    width:100px;
+    padding: 0px;
+    margin: 20px;
+    filter: drop-shadow(0 1rem 2rem #9c5c34)
+}
+
+.info-container{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    text-align: center;
+}
+.item-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px
+}
+.item{
+    flex:auto;
+    background-color: #FF5543;
+    padding:0 20px;
+    flex:auto;
+    margin:20px;
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+.item-1,
+.item-2{
+    color:black;
+    background-color: #f0b534;
+    margin:20px;
+    max-height: fit-content;
+    padding:0 20px;
+    flex:1;
+    width: auto;
+    filter: drop-shadow(0 0 0.75rem #7f5f1a);
+    gap:20px;
+}
+.item-1{
+    align-self: center;
+}
+
+.description-text,
+.list{
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+    font-family:'Allerta Stencil', sans-serif;
+}
+
+li{
+    padding:10px 10px
+}
+
+.note-container{
+    display:flex;
+    flex-direction: column;
+}
+div h4, .note-container p{
+    text-align: left;
+    margin:0
+}
+.note-container p{
+    margin-bottom: 20px;
+}
+
+h2,
+h3{
+    background-color: white;
+    padding:10px;
+    color: #f0b534;
+    ;
     
 }
-img{
-    margin:auto;
-    display:block;
+
+h2{
+    color:#FF5543;
+    border-radius: 10px;
+}
+
+.ingrediants{
+
 }
