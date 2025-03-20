@@ -40,6 +40,13 @@ a:link{
     font-weight:500;
 }
 
+a:visited{
+    color:beige;
+}
+a:hover{
+    color:#FF5543;
+}
+
 .image-container{
     display:flex;
     justify-content: center;
