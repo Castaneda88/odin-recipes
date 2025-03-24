@@ -5,10 +5,14 @@ body{
     background:rgb(225, 146, 56)
 }
 
-.header{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
+.page-title{
+    font-family:'Brush Script MT';
+    color:beige;
+    font-size: 25px;
+    }
+
+.home{
+    margin-left: auto;
 }
 
 .page-header{
@@ -19,19 +23,21 @@ body{
     filter: drop-shadow(0 1rem 1rem #9c5c34)
 }
 
+.header{
+    display:block;
+}
+
 .nav{
-    display: flex;
-    margin:auto 0;
-    padding:0;
+    display:flex;
+    padding:15px;
+    margin-top: -10px;
     list-style-type: none;
-    justify-content: space-evenly;    
-    width:fit-content;
-    
+    gap:8px;
 }
 
 .link{
     text-decoration: none;
-    flex:auto;
+
 }
 
 a:link{
